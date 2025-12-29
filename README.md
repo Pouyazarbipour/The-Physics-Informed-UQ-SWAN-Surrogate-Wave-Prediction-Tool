@@ -2,8 +2,7 @@
 
 ## Overview
 
-The **Physics-Informed SWAN Surrogate Prediction Tool** is an advanced scientific software for fast, accurate, and uncertainty-aware prediction of nearshore wave parameters.  
-This tool serves as a machine-learning-based surrogate for the SWAN (Simulating WAves Nearshore) numerical model, combining deep learning, embedded wave physics, and uncertainty quantification.
+Welcome to the **Physics-Informed SWAN Surrogate Prediction Tool**, an advanced scientific software designed for fast, accurate, and uncertainty-aware prediction of nearshore wave parameters. This standalone tool leverages deep learning, physics-informed modeling, and uncertainty quantification to efficiently reproduce the outputs of the SWAN (Simulating WAves Nearshore) numerical model. The software provides spatial predictions of key wave parameters, including significant wave height, peak wave period, and wave direction, over a two-dimensional computational grid. By integrating physical wave constraints with data-driven learning, the tool delivers high-fidelity predictions at a fraction of the computational cost of traditional SWAN simulations.
 
 The software provides spatial predictions of key wave parameters over a two-dimensional grid with a computational cost that is orders of magnitude lower than conventional SWAN simulations.
 
@@ -42,7 +41,7 @@ The underlying research is based on:
 
 > Etri, T., Jamali Rovesht, A., Nikoo, M. R., & Zarbipour, P. (2026).  
 > *Hybrid PINN-UQ Surrogate for Spatial Reconstruction of SWAN Wave Parameters*.  
-> Ocean Engineering (Under Review / In Preparation)
+> Ocean Engineering (Under Review)
 
 ## Software Architecture
 
@@ -61,12 +60,12 @@ The model follows a hybrid deep learning structure:
 For the predefined Salalah coastal domain, the surrogate model is already trained.
 
 **Required Inputs**
-- Offshore significant wave height
-- Peak wave period
-- Wave direction
-- Sea level
-- Wind speed
-- Wind direction
+- ***Offshore significant wave height***
+- ***Peak wave period***
+- ***Wave direction***
+- ***Sea level***
+- ***Wind speed***
+- ***Wind direction***
 
 The model outputs spatial predictions of Hs, Tp, and Dir along with uncertainty estimates.
 
@@ -74,7 +73,7 @@ The model outputs spatial predictions of Hs, Tp, and Dir along with uncertainty 
 
 * Valid only within the training data range
 * Increased uncertainty for extreme or unseen conditions
-* Fixed spatial resolution (36 × 36 grid)
+* Fixed spatial resolution
 
 Users are strongly encouraged to analyze uncertainty estimates alongside mean predictions.
 
@@ -94,7 +93,10 @@ The developers assume no liability for misuse or misinterpretation of the output
 Department of Civil and Architectural Engineering
 Sultan Qaboos University, Muscat, Oman
 
-## License
+## Downloads
+- [Download for Windows (.exe)](https://drive.google.com/file/d/11BHSl4onbDX9TEog0DAqbyB7ikn5LmxM/view?usp=sharing)
+- [Download for macOS (.dmg)](https://drive.google.com/file/d/11BHSl4onbDX9TEog0DAqbyB7ikn5LmxM/view?usp=sharing)
+- [User & Technical Manual](https://www.researchgate.net/publication/397600235_The_Quantum_SVM_Wave_Overtopping_Prediction_Tool_User_Technical_Manual_Version_100/)
 
-License information to be added.
-
+## About
+Developed by **Pouya Zarbipour**. For inquiries or feedback, contact [pouyazarbipour@gmail.com](mailto:pouyazarbipour@gmail.com).
