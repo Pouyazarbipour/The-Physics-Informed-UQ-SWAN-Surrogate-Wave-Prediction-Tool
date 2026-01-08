@@ -6,7 +6,7 @@ Welcome to the **Physics-Informed SWAN Surrogate Prediction Tool**, an advanced 
 
 The software provides spatial predictions of key wave parameters over a two-dimensional grid with a computational cost that is orders of magnitude lower than conventional SWAN simulations.
 
-![Main Page GUI](https://github.com/Pouyazarbipour/The-Physics-Informed-UQ-SWAN-Surrogate-Wave-Prediction-Tool/blob/main/image_2025-12-19_18-22-51.png)
+![Main Page GUI](https://github.com/Pouyazarbipour/The-Physics-Informed-UQ-SWAN-Surrogate-Wave-Prediction-Tool/blob/main/GUI_PINN.jpg)
 
 
 ## Key Capabilities
